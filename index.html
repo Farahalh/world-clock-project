@@ -8,7 +8,38 @@
     <title>World Clock</title>
   </head>
   <body>
-    <h1>World Clock</h1>
+    <div class="container">
+      <h1>World Clock</h1>
+
+      <form action="/submit">
+        <select name="city-drop-down" id="city-drop-down">
+          <option value="">Select a city</option>
+          <option value="stockholm">Stockholm</option>
+          <option value="oslo">oslo</option>
+          <option value="copenhagen">Copenhagen</option>
+          <option value="helsinki">Helsinki</option>
+        </select>
+      </form>
+
+      <div class="citysDisplayed">
+        <h2>Paris</h2>
+        <div class="date">February 21st 2023</div>
+        <div class="time">14:48 PM</div>
+
+        <h2>London</h2>
+        <div class="date">February 21st 2023</div>
+        <div class="time">14:48 PM</div>
+
+        <h2>Berlin</h2>
+        <div class="date">February 21st 2023</div>
+        <div class="time">14:48 PM</div>
+
+        <h2>Madrid</h2>
+        <div class="date">February 21st 2023</div>
+        <div class="time">14:48 PM</div>
+      </div>
+    </div>
+
     <footer>
       Open-source coded on
       <a href="https://github.com/Farahalh/world-clock-project" target="_blank"
