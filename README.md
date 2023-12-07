@@ -1,6 +1,6 @@
 # world-clock-project
 
-<img src="https://farahalh.github.io/world-clock-project/" width="250">
+<img src="https://farahalh.github.io/world-clock-project/demo.png" width="250">
 
 [Web demo](https://farahalh.github.io/world-clock-project/)
 
